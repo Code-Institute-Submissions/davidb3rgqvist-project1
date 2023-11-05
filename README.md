@@ -1,40 +1,69 @@
-Outdoor Gyms in Sweden
+# Outdoor Gyms in Sweden
 
+## Table of Contents
 
-Welcome,
+- [Outdoor Gyms in Sweden](#outdoor-gyms-in-sweden)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [UX - Five Planes](#ux---five-planes)
+  - [Wireframe](#wireframe)
+  - [Technology Used](#technology-used)
+  - [Future Features](#future-features)
+  - [Testing](#testing)
+  - [Development](#development)
+  - [Deployment](#deployment)
+  - [Credits](#credits)
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Introduction
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+Welcome to "Outdoor Gyms in Sweden," a website dedicated to helping users discover and explore outdoor fitness options across Sweden. Our mission is to provide a comprehensive resource for outdoor gym enthusiasts, promoting a healthy lifestyle and community engagement.
 
-## Codeanywhere Reminders
+## UX - Five Planes
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+- **Strategy:** Our website aims to offer an easy-to-use platform for finding outdoor gyms, facilitating user contributions, and building a community of fitness enthusiasts.
 
-`python3 -m http.server`
+- **Scope:** The website features gym search, gym details, and user contributions.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- **Structure:** The website structure includes a home page, a "Find Outdoor Gyms" page, and an "About Us" page.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- **Skeleton:** The interface design prioritizes simplicity and responsiveness for mobile-first design.
 
-`http_server`
+- **Surface:** The visual design emphasizes a clean and user-friendly interface with a focus on mobile usability.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Wireframe
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+[Wireframe link](assets/Untitled_figma.png)
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use dedthe `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Technology Used
 
-To log into the Heroku toolbelt CLI:
+- Front-end: HTML, CSS, JavaScript
+- Figma for wireframes
+- ChatGPT - for AI assistance
+- Photoshop for image editing
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Future Features
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+We plan to enhance the website with the following features:
 
----
+- User registration and profiles.
+- User-generated content, including gym uploads.
+- Advanced search filters.
+- Interactive maps for gym locations.
+- Integration with social media platforms.
+- User engagement features, such as user forums and challenges.
 
-Happy coding!
+## Testing
+
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercit
+
+## Development
+
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercit
+
+## Deployment
+
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercit
+
+## Credits
+
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercit
