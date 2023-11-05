@@ -1,4 +1,5 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Outdoor Gyms in Sweden
+
 
 Welcome,
 
@@ -22,7 +23,7 @@ To run a backend Python file, type `python3 app.py`, if your Python file is name
 
 A button should appear to click: _Open Preview_ or _Open Browser_.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use dedthe `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
 To log into the Heroku toolbelt CLI:
 
