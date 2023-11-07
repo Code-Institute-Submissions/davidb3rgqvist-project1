@@ -7,9 +7,9 @@
 
 #logo {
     color: #2BDB8C;
-    color: ;
     text-transform: uppercase;
-    padding: 10px;
+    font-size: 80%;
+    padding: 1rem
 }
 
 /* Header */
@@ -20,7 +20,13 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #39403E;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
+
+
+
 
 header a {
     text-decoration: none;
@@ -40,6 +46,31 @@ header a {
 
 #menu>li {
     margin-bottom: 1em;
+}
+
+
+/* navbar toggle */
+
+nav {
+    position: absolute;
+    background-color: #5C5952;
+    width: 100%;
+    left: 0;
+    padding: 10px 1rem 0;
+    box-shadow: 0 2px 2px #39403E;
+    display: none;
+    top: 100%;
+}
+
+/* nav toggle active */
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+.nav-toggle-label {
+    color: red;
+    padding: 1rem;
 }
 
 main {
