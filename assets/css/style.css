@@ -5,22 +5,29 @@
 }
 
 
-h1 {
-    color: red;
+#logo {
+    color: #2BDB8C;
+    color: ;
+    text-transform: uppercase;
 }
 
+/* Header */
 header {
-    background-color: aquamarine;
-    height: 200px;
+    background-color: #4F5957;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #39403E;
 }
 
 
 main {
-    background-color: bisque;
+    background-color: #E7EDEB;
     height: 800px;
 }
 
 footer {
-    background-color: coral;
+    background-color: #39403E;
     height: 400px;
 }
