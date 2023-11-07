@@ -15,24 +15,75 @@
     />
 
     <title>Outdoor Gym locator</title>
+    <!--  Favicon  -->
+    <link
+      rel="apple-touch-icon"
+      sizes="1x180"
+      href="assets/favicon/ocation_arrow_180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/location_arrow_32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/location_arrow_16x16.png"
+    />
   </head>
 
   <body>
     <!-- Header content -->
     <header>
-      <h1 href="index.html">outdoor gym locator</h1>
+      <h1 href="index.html">
+        outdoor gym locator<i class="fa-solid fa-location-arrow"></i>
+      </h1>
       <nav>
         <ul>
-          <li>Home</li>
-          <li>Find Location</li>
-          <li>Excercise Plan</li>
-          <li>About Us</li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="find-location.html">Find Location</a></li>
+          <li><a href="exercise-plan.html">Excercise Plan</a></li>
+          <li><a href="about-us.html">About Us</a></li>
         </ul>
       </nav>
     </header>
     <!-- Main content -->
     <main>
       <h2>Main content</h2>
+
+      <!-- Test search form-->
+      <form id="search-form">
+        <label for="search-input">Search by location:</label>
+        <input type="text" id="search-input" placeholder="Enter location" />
+
+        <!-- Filter Options -->
+        <label for="filter-location">Location:</label>
+        <select id="filter-location" type="radio">
+          <option value="">All Locations</option>
+          <option value="Stockholm">Stockholm</option>
+          <option value="Gothenburg">Gothenburg</option>
+          <!-- Add more location options -->
+        </select>
+
+        <label for="filter-equipment">Equipment:</label>
+        <select id="filter-equipment">
+          <option value="">All Equipment</option>
+          <option value="Pull-up bars">Pull-up bars</option>
+          <option value="Bench press">Bench press</option>
+          <!-- Add more equipment options -->
+        </select>
+
+        <!-- Search Button -->
+        <button type="submit">Search</button>
+      </form>
+
+      <!-- Search Results -->
+      <div id="search-results">
+        <!-- Results will be displayed here -->
+      </div>
     </main>
     <!-- Footer content -->
     <footer>
