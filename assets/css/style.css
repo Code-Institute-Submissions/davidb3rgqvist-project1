@@ -9,6 +9,7 @@
     color: #2BDB8C;
     color: ;
     text-transform: uppercase;
+    padding: 10px;
 }
 
 /* Header */
@@ -21,6 +22,25 @@ header {
     box-shadow: 0 2px 2px #39403E;
 }
 
+header a {
+    text-decoration: none;
+    color: #E7EDEB;
+
+}
+
+.active {
+    border-bottom: 1px solid #E7EDEB;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+
+#menu>li {
+    margin-bottom: 1em;
+}
 
 main {
     background-color: #E7EDEB;
