@@ -188,4 +188,20 @@ color: #39403E;
     #logo {font-size: 150%;
        margin: 0 0 0.5rem;
     }
+    .widgets {
+display: flex;
+justify-content: space-around;
+    }
+    .widget {
+        display: inline-block;
+        width: 48%;
+    }
+    .benefits {
+        padding: 60px 30px;
 }
+
+@media screen and (min-width: 992px) {
+#menu a:hover {
+    border-bottom: 1px solid #E7EDEB;
+}
+    }
