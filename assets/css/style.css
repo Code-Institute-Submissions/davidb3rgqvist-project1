@@ -3,7 +3,14 @@
     margin: 0;
     box-sizing: 100vh;
 }
-
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #5E6971;
+}
 
 #logo {
     color: #2BDB8C;
@@ -18,7 +25,7 @@ header {
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
-    width: 100%;
+    min-width: 100%;
     box-shadow: 0 2px 2px #39403E;
     display: flex;
     justify-content: space-between;
@@ -75,21 +82,57 @@ nav {
 /* Main content */
 
 main {
-    background-color: #E7EDEB;
+    background-color: none;
+flex: 1;
     height: 800px;
 }
+#background-video {
+position: relative;
+top: 0;
+left: 0;
+width: 100%;
+height: 610px;
+object-fit: cover;
+z-index: -1;
+}
+
 
 .benefits {
     padding: 30px;
     background-color: #5E6971;
     color: #E7EDEB;
     position: relative 100px;
+    max-width: 100%;
+    margin-top: 0;
 }
 
-
+.benefit-bullets {
+    padding-left: 20px;
+}
 
 
 footer {
     background-color: #39403E;
     height: 400px;
+    position: relative;
+    margin-bottom: 0;
+}
+
+/* General styling of wigets */
+.widgets {
+    background-color: #AAB3B6;
+}
+.widget {
+    margin: 30px;
+  width: 100%;
+  max-width: fit-content;
+    display: inline-block;
+    border: 1px #39403E;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #E7EDEB;
+
+}
+.gothenburg-image {
+    max-width: 100%;
 }
