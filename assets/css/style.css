@@ -84,8 +84,9 @@ nav {
 }
 
 .nav-toggle-label {
-    color: red;
-    padding: 1rem;
+    color: #E7EDEB;
+    padding-right: 2rem;
+    font-size: 150%;
 }
 #nav-toggle {
     display: none;
