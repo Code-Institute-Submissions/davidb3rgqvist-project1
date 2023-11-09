@@ -39,8 +39,25 @@ header {
     justify-content: space-between;
     align-items: baseline;
 }
+#hero-content {
+    background-color: rgba(250, 249, 246, 0.5);
+    color: #005EAB;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 50;
+    margin-top: 12rem;
+    position: absolute;
+    font-size: 125%;
+    width: 60%;
+    left: 2rem;
+    max-height: 300px;
+    text-transform: uppercase;
+text-align: center
+;}
 
-
+.emphasis {
+    color: #2BDB8C;
+}
 
 
 header a {
