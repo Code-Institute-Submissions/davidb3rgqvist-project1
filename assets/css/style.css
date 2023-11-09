@@ -72,11 +72,22 @@ nav {
     color: red;
     padding: 1rem;
 }
+/* Main content */
 
 main {
     background-color: #E7EDEB;
     height: 800px;
 }
+
+.benefits {
+    padding: 30px;
+    background-color: #5E6971;
+    color: #E7EDEB;
+    position: relative 100px;
+}
+
+
+
 
 footer {
     background-color: #39403E;
