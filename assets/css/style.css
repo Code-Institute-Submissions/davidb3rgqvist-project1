@@ -1,3 +1,6 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -10,13 +13,18 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #5E6971;
+    font-family: 'roboto', sans-serif;
 }
 
 #logo {
     color: #2BDB8C;
     text-transform: uppercase;
     font-size: 80%;
-    padding: 1rem
+    padding: 1rem;
+}
+
+#logo>h1 {
+    font-family: 'Allerta Stencil', sans-serif;
 }
 
 /* Header */
@@ -79,6 +87,9 @@ nav {
     color: red;
     padding: 1rem;
 }
+#nav-toggle {
+    display: none;
+}
 /* Main content */
 
 main {
@@ -131,8 +142,50 @@ footer {
     padding: 10px;
     border-radius: 5px;
     background-color: #E7EDEB;
+}
+.widget>h3 {
+    margin-top: 5px;
+    color: #39403E;
+}
 
+.widget>p {
+margin-top: 5px;
+margin-bottom: 10px;
+color: #39403E;
+}
+
+.widget>button {
+    padding: 5px;
+    background-color: #2BDB8C;
+    color: #39403E;
+    border-radius: 5px;
+    border: solid 1px #39403E;
 }
 .gothenburg-image {
     max-width: 100%;
+}
+
+/*Media quary: tablets and larger screens*/
+@media screen and (min-width: 768px) {
+    /*Header*/
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        background-color: #4F5957;
+        width: fit-content;
+        padding-right: 2rem;
+    }
+    #menu {
+        display: flex;
+    }
+    #menu>li {
+        padding-left: 1rem;
+    }
+    .nav-toggle-label {
+        display: none;
+    }
+    #logo {font-size: 150%;
+       margin: 0 0 0.5rem;
+    }
 }
