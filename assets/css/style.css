@@ -68,6 +68,7 @@ header {
     text-align: center;
     font-weight: bolder;
     font-family: 'Allerta Stencil', sans-serif;
+    margin-bottom: 500px;
 }
 
 .emphasis {
@@ -93,6 +94,9 @@ header a {
 
 #menu>li {
     margin-bottom: 1em;
+}
+.content-space{
+height: 100vh;
 }
 
 
@@ -163,6 +167,7 @@ z-index: -1;
     padding: 5px 0 30px;
     justify-content: space-evenly;
     list-style-type: none;
+    bottom: 0;
 }
 #connect-with-us i {
     color:#E7EDEB;
@@ -202,6 +207,17 @@ color: #39403E;
 .gothenburg-image {
     max-width: 100%;
 }
+/* Coming soon page */
+.coming-soon {
+    height: 14vh;
+    padding: 20% 20%;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 200%;
+    color: #E7EDEB;
+    text-transform: uppercase;
+
+}
+
 
 /*Media quary: tablets and larger screens*/
 @media screen and (min-width: 768px) {
@@ -241,7 +257,7 @@ justify-content: space-around;
             padding: 10px 0 0 10rem;
         }
         #hero-content { 
-        top: 50%;
+        top: 30%;
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 200%;
