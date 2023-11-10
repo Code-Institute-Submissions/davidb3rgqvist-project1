@@ -104,7 +104,7 @@ height: 100vh;
 
 nav {
     position: absolute;
-    background-color: #5C5952;
+    background-color: #393E40;
     width: 100%;
     left: 0;
     padding: 10px 1rem 0;
@@ -209,10 +209,10 @@ color: #39403E;
 }
 /* Coming soon page */
 .coming-soon {
-    height: 14vh;
-    padding: 20% 20%;
+    height: 45vh;
+    padding: 50% 20%;
     font-family: 'Allerta Stencil', sans-serif;
-    font-size: 200%;
+    font-size: 80%;
     color: #E7EDEB;
     text-transform: uppercase;
 
@@ -262,6 +262,11 @@ justify-content: space-around;
         transform: translate(-50%, -50%);
         font-size: 200%;
         }
+        /* Coming soon page */
+.coming-soon {
+    height: 100vh;
+    padding: 20% 20%;
+    font-size: 200%;
 }
 
 @media screen and (min-width: 992px) {
