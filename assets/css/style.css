@@ -34,7 +34,6 @@ body {
 }
 
 main {
-    margin-top: 54px;
     flex: 1 0 auto;
 }
 /* Header */
@@ -59,7 +58,7 @@ header a {
     border-bottom: 1px solid #E7EDEB;
 }
 header {
-    background-color: #545F66;
+    background-color: rgba(71, 79, 84, 0.85);
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -84,7 +83,7 @@ header {
 
 nav {
     position: absolute;
-    background-color: #393E40;
+    background-color: rgba(71, 79, 84, 0.85);
     width: 100%;
     left: 0;
     padding: 10px 1rem 0;
@@ -173,7 +172,7 @@ label {
 }
 
 .container {
-    width: 250px;
+    width: 200px;
     padding: 20px;
     background-color: rgba(250, 249, 246, 0.5);
     border-radius: 5px;
@@ -183,11 +182,40 @@ label {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 200vh;
+    background-image: url('../images/woman-working-out-4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    image-rendering: optimizeSpeed;
+}
+
+/* Location page */
+#location-background {
+    display: block;
+    height: 500vh;
+    justify-content: center;
+    background-image: url('../images/backgroung-pattern.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.widget-logation {
+    background-image: url('assets/images/background-pattern.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+    margin: 200px;
+    width: 100%;
+    max-width: fit-content;
+    display: inline-block;
+    border: 1px #39403E;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #E7EDEB;
 }
 
 
-  
 /*Footer*/
 
 #connect-with-us {
@@ -214,7 +242,8 @@ label {
 /* General styling of wigets */
 
 .widgets {
-    background-color: #AAB3B6;
+    background-image: url('../images/backgroung-pattern.png');
+    background-attachment: fixed;
 }
 .widget {
     margin: 30px;
@@ -321,7 +350,7 @@ label {
         display: block;
         position: relative;
         box-shadow: none;
-        background-color: #545F66;
+        background-color: rgba(71, 79, 84, 0);
         width: fit-content;
         padding-right: 2rem;
     }
