@@ -34,7 +34,8 @@ body {
 }
 
 main {
-    border: 54px 0 0 0;
+    margin-top: 54px;
+    flex: 1 0 auto;
 }
 /* Header */
 
@@ -157,18 +158,36 @@ nav {
     margin-top: 20px;
 }
 
-/* Coming soon page */
+/* About us page */
 
-.coming-soon {
-    height: 45vh;
-    padding: 50% 20%;
-    font-family: 'Allerta Stencil', sans-serif;
-    font-size: 80%;
-    color: #E7EDEB;
-    text-transform: uppercase;
-
+form {
+    display: flex;
+    flex-direction: column;
 }
 
+form .button {
+    margin: 20px;
+}
+label {
+    margin-bottom: 8px;
+}
+
+.container {
+    width: 250px;
+    padding: 20px;
+    background-color: rgba(250, 249, 246, 0.5);
+    border-radius: 5px;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+  
 /*Footer*/
 
 #connect-with-us {
@@ -233,7 +252,6 @@ nav {
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 130%;
-        color: pink;
         }
     }
 
@@ -248,8 +266,7 @@ nav {
         top: 20%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 100%;
-        color: yellow;
+        font-size: 130%;
         }
     }
 
@@ -267,11 +284,10 @@ nav {
     /* Main content */
     
     #hero-content { 
-        top: 20%;
+        top: 25%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 200%;
-        color: green;
+        font-size: 180%;
         }
 
     .widgets {
@@ -283,14 +299,6 @@ nav {
         display: inline-block;
         width: 48%;
         }
-
-    /* Coming soon page */
-
-    .coming-soon {
-        height: 100vh;
-        padding: 20% 20%;
-        font-size: 200%;
-        }   
 
     /* Footer */
 
@@ -334,7 +342,6 @@ nav {
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 200%;
-        color: red;
         }
 
         .benefits {
