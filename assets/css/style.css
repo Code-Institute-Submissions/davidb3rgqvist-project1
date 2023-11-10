@@ -33,6 +33,9 @@ body {
     border: 1px solid #E7EDEB;
 }
 
+main {
+    border: 54px 0 0 0;
+}
 /* Header */
 
 #logo {
@@ -257,7 +260,7 @@ nav {
     /*Header*/
 
     #logo {
-        font-size: 150%;
+        font-size: 100%;
         margin: 0 0 0.5rem;
         }
 
