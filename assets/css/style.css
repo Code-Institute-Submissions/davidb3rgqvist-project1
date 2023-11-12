@@ -17,6 +17,7 @@ body {
     flex-direction: column;
     background-color: #5E6971;
     font-family: 'roboto', sans-serif;
+    color: #393E40;
 }
 
 .button {
@@ -125,7 +126,6 @@ nav {
     text-align: center;
     font-weight: bolder;
     font-family: 'Allerta Stencil', sans-serif;
-
 }
 
 .emphasis {
@@ -194,20 +194,59 @@ nav {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
 .widget-location {
     background-image: url('assets/images/background-pattern.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
     background-attachment: fixed;
-    margin: 200px;
+    margin: 70px 10px;
     width: 100%;
     max-width: fit-content;
     display: inline-block;
-    border: 1px #39403E;
     padding: 10px;
     border-radius: 5px;
     background-color: #E7EDEB;
+}
+.widget-location>h2 {
+    position: absolute;
+    margin-top: 10px;
+    background-color: #2BDB8C;
+    padding: 5px 30px;
+    font-size: 100%;
+    font-family: 'Allerta Stencil', sans-serif;
+    text-transform: uppercase;
+    color: #E7EDEB;
+}
+
+/* Gallery */
+
+.gallery {
+    display: column;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.gallery-item {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.caption {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: #393E40;
+}
+.information-loaction {
+    background-color: #005EAB;
+    padding: 30px 10px;
+    color: #E7EDEB;
 }
 
 /* About us page */
@@ -241,7 +280,6 @@ label {
     background-repeat: no-repeat;
     image-rendering: optimizeSpeed;
 }
-
 
 
 
