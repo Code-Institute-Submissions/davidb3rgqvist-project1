@@ -1,8 +1,8 @@
-# Outdoor Gyms in Sweden
+# Free Gym Locator
 
 ## Table of Contents
 
-- [Outdoor Gyms in Sweden](#outdoor-gyms-in-sweden)
+- [Outdoor Gyms in Sweden](#free-gym-locator)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [UX - Five Planes](#ux---five-planes)
@@ -16,7 +16,7 @@
 
 ## Introduction
 
-Welcome to "Outdoor Gyms in Sweden," a website dedicated to helping users discover and explore outdoor fitness options across Sweden. Our mission is to provide a comprehensive resource for outdoor gym enthusiasts, promoting a healthy lifestyle and community engagement.
+Welcome to "Free Gym Locator," a website dedicated to helping users discover and explore outdoor fitness options across Sweden. Our mission is to provide a comprehensive resource for outdoor gym enthusiasts, promoting a healthy lifestyle and community engagement.
 
 ## UX - Five Planes
 

@@ -14,7 +14,7 @@
       content="Outdoor gym loactor. Free workout, Workout plan, Sweden. Park training"
     />
 
-    <title>Outdoor Gym locator</title>
+    <title>FREE GYM LOCATOR</title>
     <!--Google maps-->
 
     <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpu6_bQ7yZsef2iW1SN8AyPnHT-z831XI&callback=console.debug&libraries=maps,marker&v=beta"></script>
@@ -61,7 +61,7 @@
       <section id="location-background">
         <div id="malmo" class="widget-location">
           <h2>Malmo</h2>
-          <img class="gothenburg-image" src="assets/images/example-location.jpg" alt="Outdoor gym in Gothenburg">
+          <img class="top-image" src="assets/images/example-location.jpg" alt="Outdoor gym in Malmo">
           <div class="gallery">
             <div class="gallery-item">
               <img src="assets/images/example-location.jpg" alt="Image 1">
@@ -92,8 +92,8 @@
             <li>Box jump</li>
           </ul>
         </div>
-        <div>
-        <gmp-map center="57.68971252441406,11.945395469665527" zoom="14" map-id="MAP_ID">
+        <div class="map-container">
+        <gmp-map class="gmp-map" center="57.68971252441406,11.945395469665527" zoom="14" map-id="MAP_ID">
           <gmp-advanced-marker id="marker" position="57.68971252441406,11.945395469665527" title="Calisthenics Park">
           </gmp-advanced-marker>
         </gmp-map>
