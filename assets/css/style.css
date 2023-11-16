@@ -378,12 +378,25 @@ label {
 
     /* About page */
 
+    #name {
+        height: 25px;
+    }
+
+    #email {
+        height: 25px;
+    }
+
     #about {
         padding:200px 150px;
     }
     .container {
         padding: 30px;
     }
+
+    #message {
+        height:100px;
+    }
+
     form {
         padding: 0 50px;
     }
