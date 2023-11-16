@@ -276,6 +276,7 @@ img {
 /* About us page */
 
 form {
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
 }
@@ -288,22 +289,24 @@ label {
 }
 
 .container {
-    width: 220px;
-    margin-top: 65px;
     padding: 15px;
     background-color: rgba(250, 249, 246, 0.8);
     border-radius: 5px;
 }
 
 #about {
-    display: flex;
-    justify-content: center;
-    height: 120vh;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+    padding:65px 10px 10px;
+    max-width: fit-content;    
     background-image: url('../images/woman-working-out-4.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+.about-paragraph {
+    padding: 10px 0 40px;
+}
 
 
 /*Footer*/
@@ -331,29 +334,6 @@ label {
     font-size: 120%;
 }
 
-
-/* Media quary: bigger phones */
-
-@media screen and (min-width: 390px) {
-    
-    /* Main content */
-    
-    #hero-content { 
-        font-size: 130%;
-        }
-    }
-
-/* Media quary: landscape phones */
-
-
-@media screen and (min-width: 600px) {
-    
-    /* Main content */
-    
-    /* #hero-content { 
-        font-size: 130%;
-        } */
-    }
 
 /*Media quary: tablets */
 
@@ -390,6 +370,17 @@ label {
         margin-top: 20px;
     }
 
+    /* About page */
+
+    #about {
+        padding:200px 150px;
+    }
+    .container {
+        padding: 30px;
+    }
+form {
+    padding: 0 50px;
+}
     /* Footer */
 
     .connect-paragraph {
@@ -397,6 +388,7 @@ label {
         }
     }
     
+
 /* Media quary: large screens */
 
 @media screen and (min-width: 1025px) {
@@ -446,6 +438,7 @@ label {
     }
 
     /* Location page */
+
     #location-background {
         gap: 100px;
         padding: 100px 400px 20px;
@@ -461,4 +454,13 @@ label {
         grid-gap: 20px;
         margin-top: 20px;
         }  
+
+    /* About page */
+.container{
+    width: 100%;
+    justify-content: center;
+}
+    #about {
+        padding:300px 900px;
+        }
     }
