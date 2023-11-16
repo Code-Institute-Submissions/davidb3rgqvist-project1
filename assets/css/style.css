@@ -295,6 +295,17 @@ label {
     border-radius: 5px;
 }
 
+#name {
+    height: 25px;
+}
+
+#email {
+    height: 25px;
+}
+#message {
+    height: 100px;
+}
+
 #about {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -377,14 +388,6 @@ label {
     }
 
     /* About page */
-
-    #name {
-        height: 25px;
-    }
-
-    #email {
-        height: 25px;
-    }
 
     #about {
         padding:200px 150px;
