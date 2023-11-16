@@ -113,6 +113,12 @@ nav {
 }
 
 /* Home page */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
 
 #hero-content {
     background-color: rgba(250, 249, 246, 0.5);
@@ -121,9 +127,9 @@ nav {
     border-radius: 10px;
     z-index: 40;
     position: absolute;
-    top: 50%;
+    /* top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
     font-size: 120%;
     text-transform: uppercase;
     text-align: center;
@@ -339,10 +345,10 @@ label {
     /* Main content */
     
     #hero-content { 
-        margin-top: 150px;
+        /* margin-top: 150px;
         top: 22%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); */
         font-size: 130%;
         }
     }
@@ -355,9 +361,9 @@ label {
     /* Main content */
     
     #hero-content { 
-        top: 20%;
+        /* top: 20%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); */
         font-size: 130%;
         }
     }
@@ -376,10 +382,11 @@ label {
     /* Main content */
     
     #hero-content { 
-        top: 25%;
+        /* top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); */
         font-size: 180%;
+        color: red;
         }
 
     .widgets {
@@ -434,10 +441,11 @@ label {
     }
 
     #hero-content { 
-        top: 18%;
+        /* top: 18%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); */
         font-size: 200%;
+        color: yellow;
     }
 
     .benefits {
