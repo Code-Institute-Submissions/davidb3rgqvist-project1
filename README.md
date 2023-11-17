@@ -17,31 +17,33 @@ Deployed link: https://davidb3rgqvist.github.io/project1/
 
 ## UX - Five Planes
 
-- **Strategy:** The Free Gym Locator website is strategically designed to be an accessible platform catering to outdoor fitness enthusiasts across Sweden. Our primary goal is to provide a seamless and intuitive experience for users seeking information about outdoor gyms. The strategy emphasizes simplicity, accessibility, and community engagement.
+### Strategy: 
+The Free Gym Locator website is strategically designed to be an accessible platform catering to outdoor fitness enthusiasts across Sweden. Our primary goal is to provide a seamless and intuitive experience for users seeking information about outdoor gyms. The strategy emphasizes simplicity, accessibility, and community engagement.
 
-User Goals:
+#### User Goals:
+- **Finding Nearby Gyms:** Enable users to easily locate outdoor gyms across Sweden.
+- **Accessing Gym Details:** Provide comprehensive information about gym locations, equipment, and facilities.
+- **Contributing Information:** Allow users to contribute and share details about new or existing outdoor gyms.
+- **Engaging in Fitness:** Foster a community-driven space encouraging fitness enthusiasts to engage and explore.
 
-- Finding Nearby Gyms: Enable users to easily locate outdoor gyms across Sweden.
-- Accessing Gym Details: Provide comprehensive information about gym locations, equipment, and facilities.
-- Contributing Information: Allow users to contribute and share details about new or existing outdoor gyms.
-- Engaging in Fitness: Foster a community-driven space encouraging fitness enthusiasts to engage and explore.
+#### Owner Goals:
+- **Facilitating User Experience:** Prioritize a user-centric approach, ensuring seamless navigation and interaction.
+- **Building Community Engagement:** Create a vibrant community of outdoor fitness enthusiasts, encouraging contributions and interactions.
+- **Enhancing Platform Utility:** Continuously update and expand the platform's database with accurate and relevant gym information.
+- **Promoting a Healthy Lifestyle:** Inspire and promote healthy living through accessible outdoor fitness options.
 
-Owner Goals:
-- Facilitating User Experience: Prioritize a user-centric approach, ensuring seamless navigation and interaction.
-- Building Community Engagement: Create a vibrant community of outdoor fitness enthusiasts, encouraging contributions and interactions.
-- Enhancing Platform Utility: Continuously update and expand the platform's database with accurate and relevant gym information.
-- Promoting a Healthy Lifestyle: Inspire and promote healthy living through accessible outdoor fitness options.
+### Scope:
+The platform focuses on enabling users to effortlessly discover outdoor gyms, contribute information, and foster a community-driven environment. The scope includes comprehensive gym details, user-generated content, and a user-friendly interface for easy navigation.
 
-- **Scope:** The platform focuses on enabling users to effortlessly discover outdoor gyms, contribute information, and foster a community-driven environment. The scope includes comprehensive gym details, user-generated content, and a user-friendly interface for easy navigation.
+### Structure:
+The website architecture encompasses a well-organized structure with a user-centric approach. It consists of a dynamic homepage offering quick access to gym locations, a detailed page for gym information, and an "About Us" section providing insight into the platform's mission and values.
 
-- **Structure:** The website architecture encompasses a well-organized structure with a user-centric approach. It consists of a dynamic homepage offering quick access to gym locations, a detailed page for gym information, and an "About Us" section providing insight into the platform's mission and values.
-
-- **Skeleton:** The design prioritizes a mobile-first approach, ensuring responsive and adaptive interfaces for users across various devices. Wireframes and interface layouts emphasize ease of use, intuitive navigation, and clear information hierarchy.
+### Skeleton:
+The design prioritizes a mobile-first approach, ensuring responsive and adaptive interfaces for users across various devices. Wireframes and interface layouts emphasize ease of use, intuitive navigation, and clear information hierarchy.
 [Wireframe link](docs/wireframe.png)
 
-- **Surface:** Visual aesthetics focus on a clean and inviting design, integrating vibrant imagery, clear typography, and intuitive iconography. The color scheme and layout aim to enhance readability and user engagement while maintaining a modern and welcoming appearance.
-
-
+### Surface: 
+Visual aesthetics focus on a clean and inviting design, integrating vibrant imagery, clear typography, and intuitive iconography. The color scheme and layout aim to enhance readability and user engagement while maintaining a modern and welcoming appearance.
 
 ## Wireframe
 
@@ -63,6 +65,7 @@ We plan to enhance the website with the following features:
 - User-generated content, including gym uploads by user.
 - Advanced search and filters system.
 - Integration with social media platforms.
+- Basic exercise plan, with a AI-driven personal trainer as a premium option.
 - User engagement features, such as user forums and challenges.
 - Rating and comment system to highlight possible broken equipment, or lack of maintenance.
 
