@@ -111,10 +111,13 @@ nav {
 
 /* Home page */
 .hero {
+    background-image: url('../images/hero-image-man-doing-dips.png');
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 400px;
 }
 
 .emphasis {
@@ -136,13 +139,7 @@ nav {
 }
 
 #background-video {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 610px;
-    object-fit: cover;
-    z-index: -1;
+    
 }
 
 /* Benefits section */
@@ -241,6 +238,8 @@ img {
     margin-top: 5px;
     margin-bottom: 20px;
     color: #393E40;
+    font-family: 'Allerta Stencil', sans-serif;
+    text-transform: uppercase;
 }
 
 /* Information section of location */
@@ -306,7 +305,7 @@ label {
     grid-template-columns: 1fr;
     gap: 40px;
     padding: 70px 10px 10px;
-    background-image: url('../images/woman-working-out-dips.png');
+    background-image: url('../images/about-image-man-dubbells.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -346,6 +345,10 @@ label {
     }
 
     /* Home page */
+    .hero {
+        height: 700px;
+    }
+
     .benefits>p {
         width: 90%;
     }
@@ -428,6 +431,10 @@ label {
     }
 
     /* Home page */
+    .hero {
+        height: 1000px;
+    }
+
     .benefits {
         padding: 50px 100px;
     }

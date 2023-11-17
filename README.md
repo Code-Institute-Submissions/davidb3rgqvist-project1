@@ -19,17 +19,15 @@ Deployed link: https://davidb3rgqvist.github.io/project1/
 
 - **Strategy:** Our website aims to offer an easy-to-use platform for finding outdoor gyms, facilitating user contributions, and building a community of fitness enthusiasts.
 
-- **Scope:** The website features gym search, gym details, and user contributions.
+- **Scope:** The website features, gym details, and user contributions.
 
 - **Structure:** The website structure includes a home page, a "Find Outdoor Gyms" page, and an "About Us" page.
 
 - **Skeleton:** The interface design prioritizes simplicity and responsiveness for mobile-first design.
+[Wireframe link](assets/docs/wireframe.png)
 
 - **Surface:** The visual design emphasizes a clean and user-friendly interface with a focus on mobile usability.
 
-## Wireframe
-
-[Wireframe link](assets/docs/wireframe.png)
 
 ## Technology Used
 
@@ -37,6 +35,7 @@ Deployed link: https://davidb3rgqvist.github.io/project1/
 - Figma for wireframes
 - ChatGPT - for AI assistance
 - Photoshop for image editing
+- Adobe illustrator for graphic elements
 
 ## Future Features
 
