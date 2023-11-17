@@ -32,7 +32,7 @@ Welcome to "Free Gym Locator," a website dedicated to helping users discover and
 
 ## Wireframe
 
-[Wireframe link](assets/Untitled_figma.png)
+[Wireframe link](assets/docs/wireframe.png)
 
 ## Technology Used
 

@@ -1,79 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <meta
-      name="description"
-      content="Free gym loactor. Helps you find an Outdoor gym near you."
-    />
-    <meta
-      name="keywords"
-      content="Free gym loactor. Free workout, Sweden. Park training, Health"
-    />
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FREE GYM LOCATOR</title>
 
-    <title>FREE GYM LOCATOR</title>
-    <!--Google maps-->
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/location_arrow_180x180.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/location_arrow_32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/location_arrow_16x16.png">
 
-    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpu6_bQ7yZsef2iW1SN8AyPnHT-z831XI&callback=console.debug&libraries=maps,marker&v=beta"></script>
-    
-    <!--  Favicon  -->
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
 
-    <link
-      rel="apple-touch-icon"
-      sizes="1x180"
-      href="assets/favicon/ocation_arrow_180x180.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="assets/favicon/location_arrow_32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="assets/favicon/location_arrow_16x16.png"
-    />
-  </head>
+  <!-- Meta Tags for SEO -->
+  <meta name="description" content="Free gym locator. Helps you find an outdoor gym near you.">
+  <meta name="keywords" content="Free gym locator, Free workout, Sweden, Park training, Health">
+</head>
+<body>
 
-  <body>
+   <!-- Header content -->
+   <header>
+    <a id="logo" href="index.html">
+    <h1>free gym locator <i class="fa-solid fa-location-arrow"></i></h1>
+    </a>
+    <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+    <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+    <nav>
+      <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="locations.html" class="active">Location</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <!-- Header content -->
-
-    <header>
-      <a id="logo" href="index.html">
-        <h1>free gym locator <i class="fa-solid fa-location-arrow"></i></h1>
-      </a>
-      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
-      <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-      <nav>
-        <ul id="menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="locations.html" class="active">Location</a></li>
-          <li><a href="about.html">About</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <!-- Main content -->
-     <!-- Falkenberg -->
-
+    <!-- Main content --> 
     <main>
-      <section id="location-background">
-        <div id="falkenberg" class="widget-location">
+      <section class="location-background">
+
+        <!-- Location card, Falkenberg -->
+        <div id="falkenberg" class="location-card-location">
           <h2>Falkenberg, Skrea strand</h2>
-          <img class="top-image" src="assets/images/falkenberg-1.JPG" alt="Outdoor gym in Falkenberg">
+          <img class="top-image" src="assets/images/falkenberg-1.jpg" alt="Outdoor gym in Falkenberg">
           <div class="gallery">
               <div class="gallery-item">
-              <img src="assets/images/falkenberg-2.JPG" alt="Rings and box jump equipment">
+              <img src="assets/images/falkenberg-2.jpg" alt="Rings and box jump equipment">
               <div class="caption">Rings and box jump</div>
             </div>
             <div class="gallery-item">
-              <img src="assets/images/falkenberg-3.JPG" alt="Graphic with exercise suggestions">
+              <img src="assets/images/falkenberg-3.jpg" alt="Graphic with exercise suggestions">
               <div class="caption">Exercise suggestions</div>
             </div>
           </div>
@@ -98,18 +75,17 @@
           </ul>
         </div>
         <div class="map-container">
-        <gmp-map class="gmp-map" center="56.88411219522077, 12.504844765885107" zoom="14" map-id="MAP_ID">
-          <gmp-advanced-marker id="marker" position="56.88411219522077, 12.504844765885107" title="Calisthenics Park">
+        <gmp-map class="gmp-map" center="56.88411219522077, 12.504844765885107" zoom="14" map-id="MAP_ID_1">
+          <gmp-advanced-marker class="marker" position="56.88411219522077, 12.504844765885107" title="Calisthenics Park">
           </gmp-advanced-marker>
         </gmp-map>
       </div>
         </div>
 
-        <!--Gothenburg-->
-
-        <div id="gothenburg" class="widget-location">
+        <!-- Location card, Gothenburg -->
+        <div id="gothenburg" class="location-card-location">
           <h2>Gothenburg, Skatas</h2>
-          <img class="top-image" src="assets/images/skatas-1.jpg" alt="Outdoor gym in Gothenburg">
+          <img class="top-image" src="assets/images/skatas-1.jpg" alt="Outdoor gym in Gothenburg, Skatas">
           <div class="gallery">
               <div class="gallery-item">
               <img src="assets/images/skatas-2.jpg" alt="Information board, start of trail runs">
@@ -156,18 +132,17 @@
           </ul>
         </div>
         <div class="map-container">
-        <gmp-map class="gmp-map" center="57.70406485598234, 12.036630473458574" zoom="14" map-id="MAP_ID">
-          <gmp-advanced-marker id="marker" position="57.70406485598234, 12.036630473458574" title="Calisthenics Park">
+        <gmp-map class="gmp-map" center="57.70406485598234, 12.036630473458574" zoom="14" map-id="MAP_ID_2">
+          <gmp-advanced-marker class="marker" position="57.70406485598234, 12.036630473458574" title="Calisthenics Park">
           </gmp-advanced-marker>
         </gmp-map>
       </div>
         </div>
 
-        <!--Stockholm-->
-
-        <div id="stockholm" class="widget-location">
+        <!-- Location card, Stockholm -->
+        <div id="stockholm" class="location-card-location">
           <h2>stockholm, Nacka</h2>
-          <img class="top-image" src="assets/images/stockholm-1.jpeg" alt="Outdoor gym in Stockholm">
+          <img class="top-image" src="assets/images/stockholm-1.jpeg" alt="Outdoor gym in Stockholm, Nacka">
           <div class="gallery">
               <div class="gallery-item">
               <img src="assets/images/stockholm-2.jpeg" alt="Pull-up bar equipment">
@@ -215,20 +190,20 @@
           </ul>
         </div>
         <div class="map-container">
-        <gmp-map class="gmp-map" center="59.293737023511376, 18.12643461025322" zoom="14" map-id="MAP_ID">
-          <gmp-advanced-marker id="marker" position="59.293737023511376, 18.12643461025322" title="Calisthenics Park">
+        <gmp-map class="gmp-map" center="59.293737023511376, 18.12643461025322" zoom="14" map-id="MAP_ID_3">
+          <gmp-advanced-marker class="marker" position="59.293737023511376, 18.12643461025322" title="Calisthenics Park">
           </gmp-advanced-marker>
         </gmp-map>
       </div>
         </div>
 
-        <!--Next location-->
+      <!-- Location card, next location will be inserted here -->
 
       </section>
     </main>
 
-    <!-- Footer content -->
-
+ 
+    <!-- Footer content -->  
     <footer>
       <p class="connect-paragraph">Connect With Us</p>
       <ul id="connect-with-us">
@@ -238,9 +213,8 @@
         <li><a href="mailto:hello@freegymlocator.com" aria-label="Contact us"><i class="fa-regular fa-envelope"></i></a></li>
       </ul>
     </footer>
-
-    <!-- Font awesome script -->
-
-    <script src="https://kit.fontawesome.com/3ed2cfcb7f.js" crossorigin="anonymous"></script>
   </body>
+
+    <!-- Font Awesome, placed for better loading speed -->
+    <script src="https://kit.fontawesome.com/3ed2cfcb7f.js" crossorigin="anonymous"></script>
 </html>

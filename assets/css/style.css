@@ -3,11 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap');
 
 /* General rules */
-
 * {
     padding: 0;
     margin: 0;
-    box-sizing: 100vh;
+    box-sizing: border-box;
 }
 
 body {
@@ -19,6 +18,10 @@ body {
     background-color: #5E6971;
     font-family: 'roboto', sans-serif;
     color: #393E40;
+}
+
+main {
+    flex: 1 0 auto;
 }
 
 .button {
@@ -36,31 +39,7 @@ body {
     border: 1px solid #E7EDEB;
 }
 
-main {
-    flex: 1 0 auto;
-}
-
 /* Header */
-
-#logo {
-    color: #2BDB8C;
-    text-transform: uppercase;
-    font-size: 55%;
-    padding: 1rem;
-}
-
-#logo>h1 {
-    font-family: 'Allerta Stencil', sans-serif;
-}
-
-header a {
-    text-decoration: none;
-    color: #E7EDEB;
-}
-
-.active {
-    border-bottom: 1px solid #E7EDEB;
-}
 header {
     background-color: rgba(71, 79, 84, 0.85);
     padding: 0 1rem;
@@ -71,6 +50,26 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+}
+
+header a {
+    text-decoration: none;
+    color: #E7EDEB;
+}
+
+.active {
+    border-bottom: 1px solid #E7EDEB;
+}
+
+#logo {
+    color: #2BDB8C;
+    text-transform: uppercase;
+    font-size: 55%;
+    padding: 1rem;
+}
+
+#logo>h1 {
+    font-family: 'Allerta Stencil', sans-serif;
 }
 
 #menu {
@@ -84,7 +83,6 @@ header {
 }
 
 /* navbar toggle */
-
 nav {
     position: absolute;
     background-color: rgba(71, 79, 84, 0.85);
@@ -97,15 +95,14 @@ nav {
 }
 
 /* nav toggle active */
-
-#nav-toggle:checked~nav {
-    display: block;
-}
-
 .nav-toggle-label {
     color: #E7EDEB;
     padding-right: 2rem;
     font-size: 150%;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
 }
 
 #nav-toggle {
@@ -113,13 +110,16 @@ nav {
 }
 
 /* Home page */
-
 .hero {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
-  }
+}
+
+.emphasis {
+    color: #005EAB;
+}
 
 #hero-content {
     background-color: rgba(250, 249, 246, 0.5);
@@ -135,10 +135,6 @@ nav {
     font-family: 'Allerta Stencil', sans-serif;
 }
 
-.emphasis {
-    color: #005EAB;
-}
-
 #background-video {
     position: relative;
     top: 0;
@@ -148,13 +144,12 @@ nav {
     object-fit: cover;
     z-index: -1;
 }
+
+/* Benefits section */
 .benefits {
     background-image: url('../images/benifits-background.png');
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-.benefits {
     padding: 30px;
     background-color: #5E6971;
     color: #E7EDEB;
@@ -162,6 +157,7 @@ nav {
     max-width: 100%;
     margin-top: 0;
 }
+
 .benefits>p {
     padding-top: 10px;
 }
@@ -170,9 +166,8 @@ nav {
     padding: 15px 20px 20px;
 }
 
-/* Wigets */
-
-.widget-background {
+/* Location cards homepage */
+.location-cards-background-home {
     background-image: url('../images/background-pattern.png');
     background-attachment: fixed;
     background-size: cover;
@@ -182,27 +177,27 @@ nav {
     padding: 10px;
 }
 
-.widget {
+.location-card-home {
     max-width: fit-content;
     padding: 10px 10px 20px;
     border-radius: 10px;
     background-color: #E7EDEB;
 }
 
-.widget>p {
+.location-card-home>p {
     margin-top: 5px;
     margin-bottom: 20px;
     color: #39403E;
 }
 
-
-.gothenburg-image {
+/* Location page */
+img {
     max-width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
 
-/* Location page */
-
-#location-background {
+.location-background {
     display: grid;
     grid-template-columns: 1fr;
     gap: 40px;
@@ -213,14 +208,14 @@ nav {
     background-attachment: fixed;
 }
 
-.widget-location {
+.location-card-location {
     max-width: fit-content;
     padding: 10px;
     border-radius: 5px;
     background-color: #E7EDEB;
 }
 
-.widget-location>h2 {
+.location-card-location>h2 {
     position: absolute;
     margin-top: 2%;
     background-color: #2BDB8C;
@@ -232,7 +227,6 @@ nav {
 }
 
 /* Gallery */
-
 .gallery {
     display: column;
     justify-content: space-around;
@@ -243,18 +237,13 @@ nav {
     text-align: center;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-
 .caption {
     margin-top: 5px;
     margin-bottom: 20px;
     color: #393E40;
 }
 
+/* Information section of location */
 .information-loaction {
     background-color: #005EAB;
     padding: 20px 30px;
@@ -267,26 +256,25 @@ img {
 }
 
 /* Embedded map */
-
- .gmp-map {
+.gmp-map {
     width: 100%;
     height: 500px;
     margin-top: 20px;
-  }
+}
 
 /* About us page */
-
 form {
     margin-top: 10px;
-    display: flex;
+    display: grid;
     flex-direction: column;
 }
 
 form .button {
     margin: 20px;
 }
+
 label {
-    margin-top: ;
+    margin-top: 10px;
     margin-bottom:5px;
 }
 
@@ -294,6 +282,11 @@ label {
     padding: 15px;
     background-color: rgba(250, 249, 246, 0.8);
     border-radius: 5px;
+    max-width: 700px;
+}
+
+.about-paragraph {
+    padding: 10px 0 40px;
 }
 
 #name {
@@ -303,26 +296,30 @@ label {
 #email {
     height: 25px;
 }
+
 #message {
     height: 100px;
 }
 
 #about {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr;
     gap: 40px;
-    padding:65px 10px 10px;
-    max-width: fit-content;    
-    background-image: url('../images/woman-working-out-4.png');
+    padding: 70px 10px 10px;
+    background-image: url('../images/woman-working-out-dips.png');
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-.about-paragraph {
-    padding: 10px 0 40px;
-}
-
 
 /*Footer*/
+.connect-paragraph {
+    color:#E7EDEB;
+    background-color: #545F66;
+    padding: 10px 0 0 30px;
+    font-family: 'Satisfy', cursive;
+    font-size: 120%;
+}
 
 #connect-with-us {
     background-color: #545F66;
@@ -339,39 +336,29 @@ label {
     color:#E7EDEB;
 }
 
-.connect-paragraph {
-    color:#E7EDEB;
-    background-color: #545F66;
-    padding: 10px 0 0 30px;
-    font-family: 'Satisfy', cursive;
-    font-size: 120%;
-}
-
-
 /*Media quary: tablets */
-
 @media screen and (min-width: 768px) {
     
     /*Header*/
-
     #logo {
         font-size: 100%;
         margin: 0 0 0.5rem;
-        }
+    }
 
     /* Home page */
-    
-    #hero-content { 
+    .benefits>p {
+        width: 90%;
+    }
 
-        font-size: 180%;
-        }
-
-    .widget-background {
+    .location-cards-background-home {
         grid-template-columns: repeat(2, 1fr);;
-        }
+    }
 
+    #hero-content { 
+        font-size: 180%;
+    }
+   
     /* Location page */
-
     .gallery {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -379,49 +366,42 @@ label {
         margin-top: 20px;
     }
 
-    #location-background {
+    .location-background {
         gap: 40px;
         padding: 90px 10px 10px;
     }
 
-    .widget-location>h2 {
+    .location-card-location>h2 {
         font-size: 150%;
     }
 
     /* About page */
-
-    #about {
-        padding:200px 150px;
+    form {
+        padding: 0 50px;
     }
+
     .container {
         padding: 30px;
+    }
+
+    #about {
+        padding:200px 100px;
     }
 
     #message {
         height:100px;
     }
 
-    form {
-        padding: 0 50px;
-    }
     /* Footer */
-
     .connect-paragraph {
         padding: 10px 0 0 10rem;
-        }
     }
+}
     
+/*Media quary: laptop */
+@media screen and (min-width: 1180px) {
 
-/* Media quary: large screens */
-
-@media screen and (min-width: 1025px) {
-    
     /*Header*/
-
-    #menu a:hover {
-        border-bottom: 1px solid #E7EDEB;
-        }
-
     nav {
         display: block;
         position: relative;
@@ -431,60 +411,58 @@ label {
         padding-right: 2rem;
     }
 
-    #menu {
-        display: flex;
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #menu a:hover {
+        border-bottom: 1px solid #E7EDEB;
     }
 
     #menu>li {
         padding-left: 1rem;
     }
 
-    .nav-toggle-label {
-        display: none;
+    #menu {
+        display: flex;
     }
 
     /* Home page */
-
-    #hero-content { 
-        font-size: 200%;
-    }
-
     .benefits {
         padding: 50px 100px;
     }
 
     .benefits>p {
-        width: 60%;
+        width: 70%;
     }
+}
 
-    .widget-background {
+/* Media quary: large screens */
+@media screen and (min-width: 1800px) {
+    
+    /* Home page */
+    .location-cards-background-home {
         grid-template-columns: repeat(3, 1fr);
     }
 
-    /* Location page */
+    #hero-content { 
+        font-size: 200%;
+    }
 
-    #location-background {
+    /* Location page */
+    .location-background {
         gap: 100px;
         padding-top: 100px;
         padding-bottom: 20px;
         padding: 100px 30rem;
-        justify-self: center;
-        
-
     }
 
-    .widget-location {
+    .location-card-location {
         min-width: 700px;    
-}
+    }
 
     /* About page */
-
-    .container{
-        width: 100%;
-        justify-content: center;
-    }   
-
     #about {
-        padding:300px 900px;
-        }
+        padding-left: 30rem;
+    }
 }
