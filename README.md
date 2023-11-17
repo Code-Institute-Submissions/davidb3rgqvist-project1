@@ -2,7 +2,7 @@
 
 Welcome to "Free Gym Locator," a website dedicated to helping users discover and explore outdoor fitness options across Sweden. Our mission is to provide a comprehensive resource for outdoor gym enthusiasts, promoting a healthy lifestyle and community engagement.
 Deployed link: https://davidb3rgqvist.github.io/project1/
-
+![Responsive test](docs/responsive-test-project1.png)
 
 
 ## Table of Contents
@@ -24,7 +24,7 @@ Deployed link: https://davidb3rgqvist.github.io/project1/
 - **Structure:** The website structure includes a home page, a "Find Outdoor Gyms" page, and an "About Us" page.
 
 - **Skeleton:** The interface design prioritizes simplicity and responsiveness for mobile-first design.
-[Wireframe link](assets/docs/wireframe.png)
+[Wireframe link](docs/wireframe.png)
 
 - **Surface:** The visual design emphasizes a clean and user-friendly interface with a focus on mobile usability.
 
