@@ -1,10 +1,11 @@
 # Free Gym Locator
 
-## Table of Contents
+Welcome to "Free Gym Locator," a website dedicated to helping users discover and explore outdoor fitness options across Sweden. Our mission is to provide a comprehensive resource for outdoor gym enthusiasts, promoting a healthy lifestyle and community engagement.
+Deployed link: https://davidb3rgqvist.github.io/project1/
 
-- [Outdoor Gyms in Sweden](#free-gym-locator)
-  - [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
+
+
+## Table of Contents
   - [UX - Five Planes](#ux---five-planes)
   - [Wireframe](#wireframe)
   - [Technology Used](#technology-used)
@@ -13,10 +14,6 @@
   - [Development](#development)
   - [Deployment](#deployment)
   - [Credits](#credits)
-
-## Introduction
-
-Welcome to "Free Gym Locator," a website dedicated to helping users discover and explore outdoor fitness options across Sweden. Our mission is to provide a comprehensive resource for outdoor gym enthusiasts, promoting a healthy lifestyle and community engagement.
 
 ## UX - Five Planes
 
