@@ -35,6 +35,7 @@ The Free Gym Locator website is strategically designed to be an accessible platf
 
 ### Scope:
 The platform focuses on enabling users to effortlessly discover outdoor gyms, contribute information, and foster a community-driven environment. The scope includes comprehensive gym details, user-generated content, and a user-friendly interface for easy navigation.
+[Screen shots of the pages with comments](docs/comments.png)
 
 ### Structure:
 The website architecture encompasses a well-organized structure with a user-centric approach. It consists of a dynamic homepage offering quick access to gym locations, a detailed page for gym information, and an "About Us" section providing insight into the platform's mission and values.
@@ -79,7 +80,8 @@ Testing was an integral part of the website development process. We performed co
 - [HTML Validation of location.html](docs/loaction-validation.png)
 - [HTML Validation of about.html](docs/about-validation.png)
 - [CSS Validation of style.css](project1/docs/css-validation.png)
-- [Responsive test](docs/responsive-test.png)
+- [Lighthouse report](docs/lighthouse-report.png)
+- [](docs/responsive-test.png)
 
 ## Development
 
