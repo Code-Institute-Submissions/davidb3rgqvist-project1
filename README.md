@@ -1,8 +1,9 @@
 # Free Gym Locator
 
 Welcome to "Free Gym Locator," a website dedicated to helping users discover and explore outdoor fitness options across Sweden. Our mission is to provide a comprehensive resource for outdoor gym enthusiasts, promoting a healthy lifestyle and community engagement.
-Deployed link: https://davidb3rgqvist.github.io/project1/
-[Responsive test](docs/responsive-test-project1.png)
+
+- [Deployed page](https://davidb3rgqvist.github.io/project1/)
+- [Responsive test](docs/responsive-test-project1.png)
 
 
 ## Table of Contents
@@ -96,9 +97,10 @@ Moving forward, these suggested steps aim to elevate the Free Gym Locator websit
 
 ## Deployment
 
+[Deployed page](https://davidb3rgqvist.github.io/project1/)
 The deployment process involved leveraging GitHub Pages, an integrated service provided by GitHub, to publish the website directly from the project's repository. Here are the steps for deployment:
 
-1. **GitHub Repository:** The Free Gym Locator's codebase resides in a GitHub repository.
+1. **GitHub Repository:** The Free Gym Locator's codebase resides in a GitHub repository. - [Repository](https://github.com/davidb3rgqvist/project1/tree/main)
    
 2. **Branch Setup:** Utilizing a designated branch (e.g., 'gh-pages') or the default 'main' branch to host the deployable code.
 
@@ -135,6 +137,6 @@ The development and creation of the Free Gym Locator website would not have been
 
 ### Inspirations and Mentors
 
-- **[Brian O'Hare/Code Institute]:** Provided guidance, mentorship, or inspiration during the project's development.
+- **Brian O'Hare / Code Institute:** Provided guidance, mentorship, or inspiration during the project's development.
 
 We express our sincere appreciation to everyone who contributed directly or indirectly to the Free Gym Locator project, helping shape and enhance this platform for users seeking outdoor fitness options in Sweden.
