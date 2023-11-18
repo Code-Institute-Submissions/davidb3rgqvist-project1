@@ -46,7 +46,7 @@ The design prioritizes a mobile-first approach, ensuring responsive and adaptive
 
 ### Surface: 
 Visual aesthetics focus on a clean and inviting design, integrating vibrant imagery, clear typography, and intuitive iconography. The color scheme and layout aim to enhance readability and user engagement while maintaining a modern and welcoming appearance.
-[Visual ID](docs/free-gym-locator-vi.png)
+[!](docs/free-gym-locator-vi.png)
 
 ## Wireframe
 
