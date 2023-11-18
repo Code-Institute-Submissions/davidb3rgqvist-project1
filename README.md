@@ -155,5 +155,6 @@ The development and creation of the Free Gym Locator website would not have been
 
 - **Brian O'Hare / Code Institute:** Provided guidance, mentorship, or inspiration during the project's development.
 - **Swedish military's visual identity:** For providing inspiration to our visual identity.
+- **Code Institute:** Parts of code taken from the "Love running project". Used for the header and the footer 
 
 We express our sincere appreciation to everyone who contributed directly or indirectly to the Free Gym Locator project, helping shape and enhance this platform for users seeking outdoor fitness options in Sweden.
