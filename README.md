@@ -73,7 +73,13 @@ We plan to enhance the website with the following features:
 
 ## Testing
 
-- Responsive test via https://ui.dev/amiresponsive: [Responsive test](docs/responsive-test-project1.png)
+Testing was an integral part of the website development process. We performed comprehensive tests across various devices and screen sizes to ensure a seamless user experience. This included functional testing to verify proper functionality of all features, as well as responsive testing to guarantee optimal display on different devices. Additionally we performed serval validation tests.
+
+- [HTML Validation of index.html](docs/index-validation.png)
+- [HTML Validation of location.html](docs/loaction-validation.png)
+- [HTML Validation of about.html](docs/about-validation.png)
+- [CSS Validation of style.css](project1/docs/css-validation.png)
+- [Responsive test](docs/responsive-test.png)
 
 ## Development
 
@@ -112,7 +118,7 @@ The deployment process involved leveraging GitHub Pages, an integrated service p
 
 ### Accessing the Deployed Site
 
-The deployed Free Gym Locator website can be accessed using the following URL: [Free Gym Locator](https://github.com/davidb3rgqvist/project1)
+The deployed Free Gym Locator website can be accessed using the following URL: [https://github.com/davidb3rgqvist/project1](https://github.com/davidb3rgqvist/project1)
 
 The GitHub Pages deployment offers a convenient way to share the Free Gym Locator website with users globally.
 
@@ -131,6 +137,8 @@ The development and creation of the Free Gym Locator website would not have been
 - **Adobe Photoshop & Illustrator:** Used for image editing and graphic elements.
 - **Code Institute:** Primary educational content encompassing comprehensive videos elucidating HTML, CSS and UX.
 - **W3Schools:** Utilized to provide clear and straightforward explanations regarding HTML elements and styling.
+- **www.w3.org:** Utilized to perform validation test of HTML and CSS.
+- **https://ui.dev/amiresponsive:** Utilized for a quick overview of the responsivness.
 
 ### External Resources
 
