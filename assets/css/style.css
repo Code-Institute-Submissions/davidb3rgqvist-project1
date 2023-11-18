@@ -110,6 +110,7 @@ nav {
 }
 
 /* Home page */
+/* Hero section */
 .hero {
     background-image: url('../images/hero-image-man-doing-dips.png');
     background-size: cover;
@@ -159,7 +160,7 @@ nav {
     padding: 15px 20px 20px;
 }
 
-/* Location cards homepage */
+/* Location cards section */
 .location-cards-background-home {
     background-image: url('../images/background-pattern.png');
     background-attachment: fixed;
@@ -201,6 +202,7 @@ img {
     background-attachment: fixed;
 }
 
+/* Location cards */
 .location-card-location {
     max-width: fit-content;
     padding: 10px;
@@ -258,7 +260,8 @@ img {
     margin-top: 20px;
 }
 
-/* About us page */
+/* About page */
+/* Main content */
 form {
     margin-top: 10px;
     display: grid;
@@ -297,6 +300,7 @@ label {
     height: 100px;
 }
 
+/* About background */
 #about {
     display: grid;
     grid-template-columns: 1fr;
@@ -342,30 +346,34 @@ label {
     }
 
     /* Home page */
+    /* Hero section */
     .hero {
         height: 700px;
-    }
-
-    .benefits>p {
-        width: 90%;
-    }
-
-    .location-cards-background-home {
-        grid-template-columns: repeat(2, 1fr);;
     }
 
     #hero-content { 
         font-size: 180%;
     }
-   
-    /* Location page */
-    .gallery {
-        grid-template-columns: repeat(2, 1fr);
+    
+    /* Benefits section */
+    .benefits>p {
+        width: 90%;
+    }
+    
+    /* Location cards section */
+    .location-cards-background-home {
+        grid-template-columns: repeat(2, 1fr);;
     }
 
+    /* Location page */
     .location-background {
         gap: 40px;
         padding: 90px 10px 10px;
+    }
+
+    /* Location cards */
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .location-card-location>h2 {
@@ -373,6 +381,7 @@ label {
     }
 
     /* About page */
+    /* Main content */
     form {
         padding: 0 50px;
     }
@@ -425,10 +434,12 @@ label {
     }
 
     /* Home page */
+    /* Hero section */
     .hero {
         height: 1000px;
     }
 
+    /* Benefits section */
     .benefits {
         padding: 50px 100px;
     }
@@ -442,12 +453,14 @@ label {
 @media screen and (min-width: 1800px) {
     
     /* Home page */
-    .location-cards-background-home {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
+    /* Hero section */
     #hero-content { 
         font-size: 200%;
+    }
+
+    /* Location cards section */
+    .location-cards-background-home {
+        grid-template-columns: repeat(3, 1fr);
     }
 
     /* Location page */
@@ -458,11 +471,13 @@ label {
         padding: 100px 30rem;
     }
 
+    /* Location cards */
     .location-card-location {
         min-width: 700px;    
     }
 
     /* About page */
+    /* About background */
     #about {
         padding-left: 30rem;
     }
