@@ -3,7 +3,7 @@
 Welcome to "Free Gym Locator," a website dedicated to helping users discover and explore outdoor fitness options across Sweden. Our mission is to provide a comprehensive resource for outdoor gym enthusiasts, promoting a healthy lifestyle and community engagement.
 
 - [Deployed page](https://davidb3rgqvist.github.io/project1/)
-- [Responsive test](docs/responsive-test-project1.png)
+- [Responsive test](docs/responsive-test.png)
 
 
 ## Table of Contents
@@ -76,10 +76,10 @@ We plan to enhance the website with the following features:
 
 Testing was an integral part of the website development process. We performed comprehensive tests across various devices and screen sizes to ensure a seamless user experience. This included functional testing to verify proper functionality of all features, as well as responsive testing to guarantee optimal display on different devices. Additionally we performed serval validation tests.
 
-- [HTML Validation of index.html](docs/index-validation.png)
-- [HTML Validation of location.html](docs/loaction-validation.png)
-- [HTML Validation of about.html](docs/about-validation.png)
-- [CSS Validation of style.css](project1/docs/css-validation.png)
+- [HTML Validation of index.html, no errors found](docs/index-validation.png)
+- [HTML Validation of location.html, no errors found](docs/loaction-validation.png)
+- [HTML Validation of about.html, no errors found](docs/about-validation.png)
+- [CSS Validation of style.css, no errors found](project1/docs/css-validation.png)
 - [Lighthouse report](docs/lighthouse-report.png)
 - [](docs/responsive-test.png)
 
