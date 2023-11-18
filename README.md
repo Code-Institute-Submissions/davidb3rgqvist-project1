@@ -81,7 +81,7 @@ Testing was an integral part of the website development process. We performed co
 - [HTML Validation of about.html, no errors found](docs/about-validation.png)
 - [CSS Validation of style.css, no errors found](project1/docs/css-validation.png)
 - [Lighthouse report](docs/lighthouse-report.png)
-- [](docs/responsive-test.png)
+- [Responsiveness overview](docs/responsive-test.png)
 
 ## Development
 
