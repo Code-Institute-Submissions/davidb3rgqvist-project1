@@ -129,6 +129,8 @@ The development and creation of the Free Gym Locator website would not have been
 - **ChatGPT by OpenAI:** Utilized for AI assistance and content suggestions.
 - **Figma:** Used for creating wireframes, aiding in the design process.
 - **Adobe Photoshop & Illustrator:** Used for image editing and graphic elements.
+- **Code Institute:** Primary educational content encompassing comprehensive videos elucidating HTML, CSS and UX.
+- **W3Schools:** Utilized to provide clear and straightforward explanations regarding HTML elements and styling.
 
 ### External Resources
 
