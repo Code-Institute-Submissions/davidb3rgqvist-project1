@@ -46,7 +46,7 @@ The design prioritizes a mobile-first approach, ensuring responsive and adaptive
 
 ### Surface: 
 Visual aesthetics focus on a clean and inviting design, integrating vibrant imagery, clear typography, and intuitive iconography. The color scheme and layout aim to enhance readability and user engagement while maintaining a modern and welcoming appearance.
-[!](docs/free-gym-locator-vi.png)
+[Visual ID](docs/free-gym-locator-vi.png)
 
 ## Wireframe
 
@@ -141,6 +141,10 @@ The development and creation of the Free Gym Locator website would not have been
 - **W3Schools:** Utilized to provide clear and straightforward explanations regarding HTML elements and styling.
 - **www.w3.org:** Utilized to perform validation test of HTML and CSS.
 - **https://ui.dev/amiresponsive:** Utilized for a quick overview of the responsivness.
+
+### Gym photos
+
+- **Photos used for gyms:** Photos used for the gym and gym equipment are properties of Free gym locator.
 
 ### External Resources
 
