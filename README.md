@@ -91,7 +91,7 @@ Our development process for Free Gym Locator involved using HTML5, CSS3, and Jav
   
 - **Feature Expansion:** Integrate advanced search filters, social media platform integration, and additional engagement features like forums or challenges to foster community interaction.
 
-- **Improving Accessibility:** Ensure compliance with accessibility standards (WCAG) to accommodate users with disabilities and diverse needs.
+- **Improving Accessibility:** Ensure compliance with accessibility to accommodate users with disabilities and diverse needs.
 
 - **Continual Testing and Optimization:** Maintain a rigorous testing strategy to identify and fix bugs, improve performance, and validate design changes.
 
@@ -108,7 +108,7 @@ The deployment process involved leveraging GitHub Pages, an integrated service p
 
 1. **GitHub Repository:** The Free Gym Locator's codebase resides in a GitHub repository. - [Repository](https://github.com/davidb3rgqvist/project1/tree/main)
    
-2. **Branch Setup:** Utilizing a designated branch (e.g., 'gh-pages') or the default 'main' branch to host the deployable code.
+2. **Branch Setup:** Utilizing the default 'main' branch to host the deployable code.
 
 3. **Configuration:** Configuring the repository settings within the GitHub repository's settings page to select the branch to deploy.
 
@@ -148,5 +148,6 @@ The development and creation of the Free Gym Locator website would not have been
 ### Inspirations and Mentors
 
 - **Brian O'Hare / Code Institute:** Provided guidance, mentorship, or inspiration during the project's development.
+- **Swedish military's visual identity:** For providing inspiration to our visual identity.
 
 We express our sincere appreciation to everyone who contributed directly or indirectly to the Free Gym Locator project, helping shape and enhance this platform for users seeking outdoor fitness options in Sweden.
